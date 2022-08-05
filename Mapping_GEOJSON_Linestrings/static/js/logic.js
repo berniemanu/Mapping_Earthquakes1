@@ -56,8 +56,9 @@ let map = L.map('mapid', {
 // Pass our map layers into our layers control and add the layers control to the map.
 L.control.layers(baseMaps).addTo(map);
 
-// let airportData = let torontoData = "https://raw.githubusercontent.com/<GitHub_name>/Mapping_Earthquakes/main/torontoRoutes.json";
+// Accessing the airport GeoJSON URL
 let torontoHoods = "https://raw.githubusercontent.com/berniemanu/Mapping_Earthquakes1/main/torontoRoutes.json";
+
 
 // Create a style for the lines.
 let myStyle = {
